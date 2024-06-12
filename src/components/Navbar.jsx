@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Box, Flex, Spacer, Button } from "@chakra-ui/react";
+import { FaShoppingCart } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
           Home
         </Button>
         <Spacer />
-        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost" color="white">
+        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost" color="white" leftIcon={<FaShoppingCart />}>
           Cart
         </Button>
       </Flex>
