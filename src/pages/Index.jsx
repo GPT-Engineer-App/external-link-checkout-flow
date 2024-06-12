@@ -13,7 +13,7 @@ const Index = () => {
     // Fetch products from an external link
     axios
       .get("https://fakestoreapi.com/products")
-      .then((response) => setProducts(response.data))
+      .then((response) => setProducts(response.data.slice(0, 9)))
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
 
