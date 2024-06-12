@@ -3,13 +3,13 @@ import { Box, Flex, Spacer, Button } from "@chakra-ui/react";
 
 function Navbar() {
   return (
-    <Box bg="black" p={4}>
+    <Box bg="teal.700" p={4}>
       <Flex>
-        <Button as={Link} to="/" colorScheme="whiteAlpha" variant="ghost" color="white">
+        <Button as={Link} to="/" colorScheme="whiteAlpha" variant="ghost">
           Home
         </Button>
         <Spacer />
-        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost" color="white">
+        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost">
           Cart
         </Button>
       </Flex>
