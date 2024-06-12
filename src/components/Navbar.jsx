@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <Box bg="teal.700" p={4}>
       <Flex>
-        <Button as={Link} to="/" colorScheme="whiteAlpha" variant="ghost">
+        <Button as={Link} to="/" colorScheme="whiteAlpha" variant="ghost" color="white">
           Home
         </Button>
         <Spacer />
-        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost">
+        <Button as={Link} to="/cart" colorScheme="whiteAlpha" variant="ghost" color="white">
           Cart
         </Button>
       </Flex>
