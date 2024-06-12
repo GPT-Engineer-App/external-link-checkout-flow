@@ -58,7 +58,7 @@ const Index = () => {
         <Text fontSize="3xl" fontWeight="bold">
           Product List
         </Text>
-        <HStack spacing={4} wrap="wrap" justify="center">
+        <HStack spacing={4} wrap="wrap" justify="flex-start">
           {products.map((product) => (
             <Box key={product.id} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4} w="200px" h="300px">
               <Image src="https://via.placeholder.com/150" alt={product.title} boxSize="150px" objectFit="cover" mx="auto" />
