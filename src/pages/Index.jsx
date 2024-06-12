@@ -73,7 +73,7 @@ const Index = () => {
           ))}
         </HStack>
 
-        <Text fontSize="3xl" fontWeight="bold">
+        <Text id="cart" fontSize="3xl" fontWeight="bold">
           Cart
         </Text>
         <VStack spacing={4} w="full">
